@@ -11,7 +11,7 @@ import java.util.UUID;
 public class SsoUtils {
 
     public static String getUUID(){
-        return UUID.randomUUID().toString();
+        return "sso-" + UUID.randomUUID().toString();
     }
 
 }
